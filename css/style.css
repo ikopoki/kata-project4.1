@@ -78,9 +78,46 @@ button {
     padding-top: 23px;
     cursor: pointer;
 }
-hui
-hui
-hui
+
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.nav__list__item{
+    margin-bottom: 10px;
+}
+
+.nav__list__item:focus,
+.nav__list__item:hover{
+    content: "";
+    width: 4px;
+    height: 32px;
+    background-color: #41F6D7;
+    border-radius: 0px 10px 10px 0px;
+    transition: 0.3s ease-in-out;
+}
+
+.nav__list__item-link{
+    color: #1B1C21;
+    font-family: TTLakes-medium;
+    font-size: 16px;
+    line-height: 32px; 
+    cursor: pointer;
+    padding-left: 24px;
+    margin-bottom: 32px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav__list__item-link:hover,
+.nav__list__item-link:focus{
+    color: #7E7E82;
+}
 
 .menu__main__contact{
     margin-top: 268px;
