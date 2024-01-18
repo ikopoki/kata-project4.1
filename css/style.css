@@ -42,6 +42,7 @@
 
 body{
     margin: 0;
+    height: 100%;
 }
 
 .menu {
@@ -121,7 +122,8 @@ button {
 }
 
 .menu__main__contact{
-    margin-top: 84%;
+    margin-bottom: 40px;
+    margin-top: 32px;
 }
 
 .menu__main__contact__call{
@@ -183,7 +185,6 @@ button {
 }
 
 .menu__main__lang{
-    margin-top: 40px;
     padding-bottom: 32px;
     display: flex;
 }
