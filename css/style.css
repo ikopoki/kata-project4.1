@@ -1,41 +1,41 @@
 @font-face {
     font-family:"TTLakes-normal";
-    src: url(../fonts/TTLakes-Black.ttf) format("truetype");
+    src: url(../assets/fonts/TTLakes-Black.ttf) format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 
 @font-face {
     font-family:"TTLakes-bold";
-    src: url(../fonts/TTLakes-Bold.ttf) format("truetype");
+    src: url(../assets/fonts/TTLakes-Bold.ttf) format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 
 @font-face {
     font-family:"TTLakes-italic";
-    src: url(../fonts/TTLakes-BlackItalic.ttf) format("truetype");
+    src: url(../assets/fonts/TTLakes-BlackItalic.ttf) format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 
 @font-face {
     font-family:"TTLakes-bold-italic";
-    src: url(../fonts/TTLakes-BoldItalic.ttf) format("truetype");
+    src: url(../assets/fonts/TTLakes-BoldItalic.ttf) format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 
 @font-face {
     font-family: 'TTLakes-regular';
-    src: url(../fonts/TTLakesCompressed-Regular.ttf);
+    src: url(../assets/fonts/TTLakesCompressed-Regular.ttf);
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "TTLakes-medium";
-    src: url(../fonts/TTLakes-Medium.ttf);
+    src: url(../assets/fonts/TTLakes-Medium.ttf);
     font-style: normal;
     font-weight: normal;
 }
@@ -99,7 +99,7 @@ button {
     height: 32px;
     background-color: #41F6D7;
     border-radius: 0px 10px 10px 0px;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .nav__list__item-link{
@@ -117,6 +117,7 @@ button {
 .nav__list__item-link:hover,
 .nav__list__item-link:focus{
     color: #7E7E82;
+    transition: 0.5s ease-in-out;
 }
 
 .menu__main__contact{
@@ -130,6 +131,7 @@ button {
 .menu__main__contact__call img{
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .menu__main__contact__chat{
@@ -139,6 +141,7 @@ button {
 .menu__main__contact__chat img{
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .menu__main__contact__profile{
@@ -149,6 +152,7 @@ button {
 .menu__main__contact__profile img{
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .menu__main__contact__mail{
@@ -192,9 +196,11 @@ button {
     letter-spacing: -0.2px;
 }
 
-.menu__main__lang__ru:hover{
+.menu__main__lang__ru:hover,
+.menu__main__lang__ru:focus{
     color: #7E7E82;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
 .menu__main__lang__en{
@@ -206,9 +212,11 @@ button {
     letter-spacing: -0.2px;
 }
 
-.menu__main__lang__en:hover{
+.menu__main__lang__en:hover,
+.menu__main__lang__en:focus{
     color: #7E7E82;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
 .menu__main__lang__ch{
@@ -220,7 +228,9 @@ button {
     letter-spacing: -0.2px;
 }
 
-.menu__main__lang__ch:hover{
+.menu__main__lang__ch:hover,
+.menu__main__lang__ch:focus{
     color: #7E7E82;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
